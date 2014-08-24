@@ -24,7 +24,7 @@ return array(
 	 *
 	 *     '@myalias'      => 'to/my/url/'            // alias only
 	 */
-	'#root' => 'Welcome',
+	'#root' => 'Shelf',
 
 	/*
 	 * Not Found and internal Server Error
@@ -37,8 +37,19 @@ return array(
 	 */
 	'login'				 	=> 'Auth@sign_in',
 	'logout' 				=> 'Auth@sign_out',
-	'join@auth.sign_up' 		=> 'Auth@sign_up',
+	'join@auth.sign_up' 	=> 'Auth@sign_up',
 	
 	'@auth.sign_in'			=> to( 'login/', array( ':back' ) ),
-	'@auth.sign_out'			=> to( 'logout/', array( ':fingerprint' ) ),
+	'@auth.sign_out'		=> to( 'logout/', array( ':fingerprint' ) ),
+	
+	'@shelf'				=> 'Shelf',
+	'create@shelf.create'	=> 'Shelf@create',
+	
+	//'settings@user.settings'=> 'Settings',
+	
+	'[num]@shelf.item'		=> 'Shelf@detail',
+	//'~[num]'				=> 'User',
+	//'~[any]@user.detail'	=> 'User',
+	
+	//'d/[num]@download.file'	=> 'Download@download_file'
 );

@@ -13,7 +13,7 @@ class App extends CCApp
 	 *
 	 * @var string
 	 */
-	public static $name = 'My Application';
+	public static $name = 'Catshelf';
 	
 	/**
 	 * App configuration
@@ -47,7 +47,7 @@ class App extends CCApp
 		/*
 		 * try to authenticate the user
 		 */
-		//static::$user =& CCAuth::handler()->user;
+		static::$user =& CCAuth::handler()->user;
 		
 		/*
 		 * load the App configuration

@@ -5,7 +5,8 @@
 	"keywords": ["ccf", "framework", "clancats"],
 	"license": "MIT",
 	"require": {
-		"clancats/core": "2.0.*"
+		"clancats/core": "2.0.*",
+		"ircmaxell/password-compat": "dev-master"
 	},
 	"config": {
 		"vendor-dir": "CCF/vendor"

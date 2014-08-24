@@ -11,5 +11,5 @@ return array(
     /*
      * an description of your application
      */
-    'description'      => 'ClanCats Framework, because your time is precious. HMVC PHP framework.',
+    'description'      => 'Becouse of cats!',
 );
